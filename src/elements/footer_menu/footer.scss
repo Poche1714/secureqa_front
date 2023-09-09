@@ -1,0 +1,26 @@
+$color-primary: #208ea9;
+$color-secundary: #e4590f;
+
+.footer_menu {
+    border-color: $color-primary;
+    border-radius: 8px;
+    border-top: 0 solid #ccc !important;
+    border-left: 0 solid #ccc !important;
+    border-right: 0 solid #ccc !important;
+    box-shadow: 0px 2px 4px #208ea9; // Propiedad de sombra
+    position: fixed;
+    bottom: 2px;
+}
+
+.footer_menu_text {
+    font-size: 10px;
+}
+
+.footer_menu_item {
+    text-align: center;
+
+}
+
+._select {
+    color: $color-secundary;
+}

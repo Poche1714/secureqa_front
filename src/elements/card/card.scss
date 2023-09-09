@@ -1,0 +1,61 @@
+$color-primary: #208ea9;
+$color-secundary: #e4590f;
+$color-text: #0e0c0b;
+
+._size_color {
+    font-size: 18px;
+    font-weight: 700;
+    color: $color-text;
+
+}
+
+._tag {
+    background: $color-primary;
+    padding: 6px;
+    max-width: 200px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: $color-text !important;
+    text-align: left;
+}
+
+._index {
+    font-size: 14px;
+    font-weight: 900;
+    color: $color-text;
+}
+
+._left {
+    text-align: left;
+}
+
+._description {
+    font-size: 14px;
+}
+
+._link {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+._image {
+    max-height: 180px;
+    max-width: 350px;
+    width: 100%;
+}
+
+._right {
+    text-align: right;
+}
+
+._results {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+._border {
+    border-top: 0 solid #ccc !important;
+    border-left: 0 solid #ccc !important;
+    border-right: 0 solid #ccc !important;
+    box-shadow: 0px 1px 1px #208ea9; // Propiedad de sombra
+}
